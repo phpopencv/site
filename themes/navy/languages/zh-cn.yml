@@ -22,11 +22,13 @@ sidebar:
     getting_started: 开始使用
     install: 安装
     overview: 概述
-    setup: 建站
-    configuration: 配置
-    commands: 命令
-    migration: 迁移
+    dev_prepare: 开发前准备
+#    setup: 建站
+#    configuration: 配置
+#    commands: 命令
+#    migration: 迁移
     basic_usage: 基本操作
+    quick_start: 快速开始
     writing: 写作
     front_matter: Front-matter
     tag_plugins: 标签插件
