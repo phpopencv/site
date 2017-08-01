@@ -20,41 +20,57 @@ page:
 sidebar:
   docs:
     getting_started: 开始使用
-    install: 安装
     overview: 概述
+    install: 安装
     dev_prepare: 开发前准备
-#    setup: 建站
-#    configuration: 配置
-#    commands: 命令
-#    migration: 迁移
-    basic_usage: 基本操作
     quick_start: 快速开始
-    writing: 写作
-    front_matter: Front-matter
-    tag_plugins: 标签插件
-    asset_folders: 资源文件夹
-    data_files: 数据文件夹
-    server: 服务器
-    generating: 生成器
-    deployment: 部署
-    customization: 自定义
-    permalinks: 永久链接
-    themes: 主题
-    structure: 结构
-    templates: 模版
-    variables: 变量
-    helpers: 辅助函数
-    internationalization: 国际化 (i18n)
-    plugins: 插件
-    miscellaneous: 其他
-    troubleshooting: 问题解答
-    contributing: 贡献
+#核心模块
+    core_module: 核心模块
+    mat: Mat
+    how_to_scan_images: 图像读取
+    mat_mask_operations: 矩阵上的掩码操作
+    mat_operations: 图像操作
+    adding_images: 添加（混合）两个图像
+    basic_linear_transform: 改变图像的对比度和亮度！
+    basic_geometric_drawing: 基本绘图
+    random_generator_and_text: 随机生成器和OpenCV文本
+    discrete_fourier_transform: 离散傅里叶变换
+    file_input_output_with_xml_yml: 文件输入和输出使用XML和YAML文件
+    interoperability_with_OpenCV_1: Interoperability with OpenCV 1
+    how_to_use_ippa_conversion: OpenCV中的英特尔®IPP异步
+    how_to_use_OpenCV_parallel_for_: 如何使用OpenCV parallel_for_来并行化代码
+#Image Processing
+    image_processing: 图像处理
+    gausian_median_blur_bilateral_filter: Smoothing Images
+
+#    writing: 写作
+#    front_matter: Front-matter
+#    tag_plugins: 标签插件
+#    asset_folders: 资源文件夹
+#    data_files: 数据文件夹
+#    server: 服务器
+#    generating: 生成器
+#    deployment: 部署
+#    customization: 自定义
+#    permalinks: 永久链接
+#    themes: 主题
+#    structure: 结构
+#    templates: 模版
+#    variables: 变量
+#    helpers: 辅助函数
+#    internationalization: 国际化 (i18n)
+#    plugins: 插件
+#    miscellaneous: 其他
+#    troubleshooting: 问题解答
+#    contributing: 贡献
+    contrib: contaib模块
+    face: 人脸识别
   api:
     base: 基本
     overview: 概述
     core: Core
     mat: Mat
-    events: 事件
+#    events: 事件
 #    locals: 本地变量
 #    router: 路由
 #    box: 盒(Box)

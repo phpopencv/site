@@ -24,7 +24,7 @@ highlight:
   enable: true
   line_number: false
 
-disqus_shortname: hexojs
+disqus_shortname: phpopencv
 google_analytics: UA-48498357-3
 google_adsense: ca-pub-9461880259118621
 fb_admins: 100000247608790

@@ -4,12 +4,28 @@ docs:
     install: install.html
     structure: structure.html
     dev_prepare: dev-prepare.html
+    quick_start: quick-start.html
+
 #    setup: setup.html
 #    configuration: configuration.html
 #    commands: commands.html
 #    migration: migration.html
-  basic_usage:
-    quick_start: quick-start.html
+  core_module:
+    mat: mat.html
+    how_to_scan_images: how-to-scan-images.html
+    mat_mask_operations: mat-mask-operations.html
+    mat_operations: mat-operations.html
+    adding_images: adding-images.html
+    basic_linear_transform: basic-linear-transform.html
+    basic_geometric_drawing: basic-geometric-drawing.html
+    random_generator_and_text: random-generator-and-text.html
+    discrete_fourier_transform: discrete-fourier-transform.html
+    file_input_output_with_xml_yml: file-input-output-with-xml-yml.html
+    interoperability_with_OpenCV_1: interoperability-with-OpenCV-1.html
+    how_to_use_ippa_conversion: how-to-use-ippa-conversion.html
+    how_to_use_OpenCV_parallel_for_: how-to-use-OpenCV-parallel-for-.html
+  image_processing:
+    gausian_median_blur_bilateral_filter: gausian_median_blur_bilateral_filter.html
 #    writing: writing.html
 #    front_matter: front-matter.html
 #    tag_plugins: tag-plugins.html
@@ -29,12 +45,15 @@ docs:
 #  miscellaneous:
 #    troubleshooting: troubleshooting.html
 #    contributing: contributing.html
+  contrib:
+    face: face.html
 
 api:
   base:
     overview: index.html
   core:
     mat: mat.html
+
 #    events: events.html
 #    locals: locals.html
 #    router: router.html
