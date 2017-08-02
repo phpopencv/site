@@ -15,7 +15,7 @@ docs:
     how_to_scan_images: how-to-scan-images.html
     mat_mask_operations: mat-mask-operations.html
     mat_operations: mat-operations.html
-    adding_images: adding-images.html
+    adding_images: adding_images.html
     basic_linear_transform: basic-linear-transform.html
     basic_geometric_drawing: basic-geometric-drawing.html
     random_generator_and_text: random-generator-and-text.html
