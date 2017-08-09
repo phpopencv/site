@@ -41,7 +41,7 @@ sidebar:
     how_to_use_OpenCV_parallel_for_: 如何使用OpenCV parallel_for_来并行化代码
 #Image Processing
     image_processing: 图像处理
-    gausian_median_blur_bilateral_filter: Smoothing Images
+    gausian_median_blur_bilateral_filter: 图像平滑处理
 
 #    writing: 写作
 #    front_matter: Front-matter

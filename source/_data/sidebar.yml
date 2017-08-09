@@ -12,18 +12,18 @@ docs:
 #    migration: migration.html
   core_module:
     mat: mat.html
-    how_to_scan_images: how-to-scan-images.html
-    mat_mask_operations: mat-mask-operations.html
-    mat_operations: mat-operations.html
+    how_to_scan_images: how_to_scan_images.html
+    mat_mask_operations: mat_mask_operations.html
+    mat_operations: mat_operations.html
     adding_images: adding_images.html
-    basic_linear_transform: basic-linear-transform.html
-    basic_geometric_drawing: basic-geometric-drawing.html
-    random_generator_and_text: random-generator-and-text.html
-    discrete_fourier_transform: discrete-fourier-transform.html
-    file_input_output_with_xml_yml: file-input-output-with-xml-yml.html
-    interoperability_with_OpenCV_1: interoperability-with-OpenCV-1.html
-    how_to_use_ippa_conversion: how-to-use-ippa-conversion.html
-    how_to_use_OpenCV_parallel_for_: how-to-use-OpenCV-parallel-for-.html
+    basic_linear_transform: basic_linear_transform.html
+    basic_geometric_drawing: basic_geometric_drawing.html
+    random_generator_and_text: random_generator_and_text.html
+    discrete_fourier_transform: discrete_fourier_transform.html
+    file_input_output_with_xml_yml: file_input_output_with_xml_yml.html
+    interoperability_with_OpenCV_1: interoperability_with_OpenCV_1.html
+    how_to_use_ippa_conversion: how_to_use_ippa_conversion.html
+    how_to_use_OpenCV_parallel_for_: how_to_use_OpenCV_parallel_for_.html
   image_processing:
     gausian_median_blur_bilateral_filter: gausian_median_blur_bilateral_filter.html
 #    writing: writing.html

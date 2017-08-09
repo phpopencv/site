@@ -1,12 +1,14 @@
-title: 使用OpenCV添加（混合）两个图像
----
+title: 图像平滑处理
+-------------
 
 ## 目标
 
-在本篇教程中*你*将学到：
+在本教程中，您将学习如何使用多种线性滤镜来平滑使用PHPOpenCV功能的图像，如：
 
- - 什么是_线性混合_ 以及为何它如此有用;
- - 如何使用`cv::addWeighted`对两张图片进行相加
+- cv::blur 均值滤波
+- cv::GaussianBlur
+- cv::medianBlur
+- cv::bilateralFilter
 
 ## 原理
 
