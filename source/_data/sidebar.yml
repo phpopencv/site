@@ -26,6 +26,7 @@ docs:
     how_to_use_OpenCV_parallel_for_: how_to_use_OpenCV_parallel_for_.html
   image_processing:
     gausian_median_blur_bilateral_filter: gausian_median_blur_bilateral_filter.html
+    basic_thresholding_operations: threshold.html
 #    writing: writing.html
 #    front_matter: front-matter.html
 #    tag_plugins: tag-plugins.html
