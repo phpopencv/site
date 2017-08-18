@@ -26,7 +26,20 @@ docs:
     how_to_use_OpenCV_parallel_for_: how_to_use_OpenCV_parallel_for_.html
   image_processing:
     gausian_median_blur_bilateral_filter: gausian_median_blur_bilateral_filter.html
-    basic_thresholding_operations: threshold.html
+    erosion_dilatation: erosion_dilatation.html
+    opening_closing_hats: opening_closing_hats.html
+    moprh_lines_detection: moprh_lines_detection.html
+    pyramids: pyramids.html
+    threshold: threshold.html
+    threshold_inRange: threshold_inRange.html
+    filter_2d: filter_2d.html
+    copyMakeBorder: copyMakeBorder.html
+    sobel_derivatives: sobel_derivatives.html
+    laplace_operator: laplace_operator.html
+    canny_detector: canny_detector.html
+    hough_lines: hough_lines.html
+    hough_circle: hough_circle.html
+
 #    writing: writing.html
 #    front_matter: front-matter.html
 #    tag_plugins: tag-plugins.html

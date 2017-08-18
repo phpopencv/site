@@ -28,7 +28,7 @@ sidebar:
 #核心模块
     core_module: 核心模块
     mat: Mat
-    how_to_scan_images: 图像读取
+    how_to_scan_images: 扫描图像，查找表和时间测量
     mat_mask_operations: 矩阵上的掩码操作
     mat_operations: 图像操作
     adding_images: 添加（混合）两个图像
@@ -43,7 +43,19 @@ sidebar:
 #Image Processing
     image_processing: 图像处理
     gausian_median_blur_bilateral_filter: 图像平滑处理
-    basic_thresholding_operations: 基本的阈值操作
+    erosion_dilatation: 腐蚀和膨胀
+    opening_closing_hats: 更多的形态变换
+    moprh_lines_detection: 利用形态学运算提取水平线和垂直线
+    pyramids: 图像金字塔
+    threshold: 基本的阈值操作
+    threshold_inRange: 阈值的使用范围
+    filter_2d: 制作自己的线性滤波器！
+    copyMakeBorder: 向图像添加边框
+    sobel_derivatives: 索贝尔衍生物
+    laplace_operator: 拉普拉斯算子
+    canny_detector: Canny边缘检测器
+    hough_lines: 霍夫线变换
+    hough_circle: 霍夫圈变换
 
 #    writing: 写作
 #    front_matter: Front-matter
