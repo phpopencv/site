@@ -29,7 +29,7 @@ sidebar:
     core_module: 核心模块
     mat: Mat
     how_to_scan_images: 扫描图像，查找表和时间测量
-    mat_mask_operations: 矩阵上的掩码操作
+    mat_mask_operations: 矩阵的掩码操作
     mat_operations: 图像操作
     adding_images: 添加（混合）两个图像
     basic_linear_transform: 改变图像的对比度和亮度！
