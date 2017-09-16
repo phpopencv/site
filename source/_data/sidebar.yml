@@ -21,9 +21,9 @@ docs:
     random_generator_and_text: random_generator_and_text.html
     discrete_fourier_transform: discrete_fourier_transform.html
     file_input_output_with_xml_yml: file_input_output_with_xml_yml.html
-    interoperability_with_OpenCV_1: interoperability_with_OpenCV_1.html
-    how_to_use_ippa_conversion: how_to_use_ippa_conversion.html
-    how_to_use_OpenCV_parallel_for_: how_to_use_OpenCV_parallel_for_.html
+#    interoperability_with_OpenCV_1: interoperability_with_OpenCV_1.html
+#    how_to_use_ippa_conversion: how_to_use_ippa_conversion.html
+#    how_to_use_OpenCV_parallel_for_: how_to_use_OpenCV_parallel_for_.html
   image_processing:
     gausian_median_blur_bilateral_filter: gausian_median_blur_bilateral_filter.html
     erosion_dilatation: erosion_dilatation.html
@@ -39,6 +39,8 @@ docs:
     canny_detector: canny_detector.html
     hough_lines: hough_lines.html
     hough_circle: hough_circle.html
+  highgui_module:
+    trackbar: trackbar.html
 
 #    writing: writing.html
 #    front_matter: front-matter.html

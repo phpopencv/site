@@ -56,6 +56,9 @@ sidebar:
     canny_detector: Canny边缘检测器
     hough_lines: 霍夫线变换
     hough_circle: 霍夫圈变换
+#highgui_module
+    highgui_module: highgui
+    trackbar: 滑动条
 
 #    writing: 写作
 #    front_matter: Front-matter
