@@ -45,7 +45,8 @@ sidebar:
     gausian_median_blur_bilateral_filter: 图像平滑处理
     erosion_dilatation: 腐蚀和膨胀
     opening_closing_hats: 更多的形态变换
-    moprh_lines_detection: 利用形态学运算提取水平线和垂直线
+#    moprh_lines_detection: 利用形态学运算提取水平线和垂直线
+    flood_fill: 漫水填充
     pyramids: 图像金字塔
     threshold: 基本的阈值操作
     threshold_inRange: 阈值的使用范围
@@ -60,26 +61,7 @@ sidebar:
     highgui_module: highgui
     trackbar: 滑动条
 
-#    writing: 写作
-#    front_matter: Front-matter
-#    tag_plugins: 标签插件
-#    asset_folders: 资源文件夹
-#    data_files: 数据文件夹
-#    server: 服务器
-#    generating: 生成器
-#    deployment: 部署
-#    customization: 自定义
-#    permalinks: 永久链接
-#    themes: 主题
-#    structure: 结构
-#    templates: 模版
-#    variables: 变量
-#    helpers: 辅助函数
-#    internationalization: 国际化 (i18n)
-#    plugins: 插件
-#    miscellaneous: 其他
-#    troubleshooting: 问题解答
-#    contributing: 贡献
+
     contrib: contaib模块
     face: 人脸识别
   api:

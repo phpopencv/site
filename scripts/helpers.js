@@ -70,9 +70,9 @@ hexo.extend.helper.register('header_menu', function(className){
   var result = '';
   var self = this;
   var lang = this.page.lang;
-  if(lang=='en'){
-    lang='zh-cn'
-  }
+  //if(lang=='en'){
+  //  lang='zh-cn'
+  //}
   //console.log(lang);
   var isEnglish = lang === 'en';
   _.each(menu, function(path, title){

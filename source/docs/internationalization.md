@@ -1,22 +1,22 @@
-title: Internationalization (i18n)
+title: 国际化（i18n）
 ---
-You can use internationalization to present your site in different languages. The default language is set by modifying the `language` setting in `_config.yml`. You can also set multiple languages and modify the order of default languages.
+若要让您的网站以不同语言呈现，您可使用国际化（internationalization）功能。请先在 `_config.yml` 中调整 `language` 设定，这代表的是预设语言，您也可设定多个语言来调整预设语言的顺位。
 
 ``` yaml
 language: zh-tw
 
-language:
+language: 
 - zh-tw
 - en
 ```
 
-### Language Files
+### 语言文件
 
-Language files can be YAML or JSON files. You should put them into the `languages` folder in the theme. There is support for the [printf format](https://github.com/alexei/sprintf.js) in language files.
+语言文件可以使用 YAML 或 JSON 编写，并放在主题文件夹中的 `languages` 文件夹。您可以在语言文件中使用 [printf 格式](https://github.com/alexei/sprintf.js)。
 
-### Templates
+### 模板
 
-Use `__` or `_p` helpers in templates to get the translated strings. The former is for normal usage and the latter is for plural strings. For example:
+在模板中，透过 `__` 或 `_p` 辅助函数，即可取得翻译后的字符串，前者用于一般使用；而后者用于复数字符串。例如：
 
 ``` yaml en.yml
 index:
@@ -36,15 +36,15 @@ index:
 // 3 videos
 ```
 
-### Path
+### 路径
 
-You can set the language of pages in front-matter, or modify the `i18n_dir` setting in `_config.yml` to enable automatic detection by Hexo.
+您可在 front-matter 中指定该页面的语言，也可在 `_config.yml` 中修改 `i18n_dir` 设定，让 Hexo 自动侦测。
 
 ``` yaml
 i18n_dir: :lang
 ```
 
-The default value of `i18n_dir` setting is `:lang`, which means that Hexo will detect the language within the first segment of URL. For example:
+`i18n_dir` 的预设值是 `:lang`，也就是说 Hexo 会捕获网址中的第一段以检测语言，举例来说：
 
 ``` plain
 /index.html => en
@@ -52,4 +52,4 @@ The default value of `i18n_dir` setting is `:lang`, which means that Hexo will d
 /zh-tw/index.html => zh-tw
 ```
 
-The string will only be served as a language when the language file exists. So `archives` in `/archives/index.html` (example 2) will not get served as a language.
+捕获到的字符串唯有在语言文件存在的情况下，才会被当作是语言，因此例二 `/archives/index.html` 中的 `archives` 就不被当成是语言。

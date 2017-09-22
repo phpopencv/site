@@ -28,7 +28,8 @@ docs:
     gausian_median_blur_bilateral_filter: gausian_median_blur_bilateral_filter.html
     erosion_dilatation: erosion_dilatation.html
     opening_closing_hats: opening_closing_hats.html
-    moprh_lines_detection: moprh_lines_detection.html
+    flood_fill: flood_fill.html
+#    moprh_lines_detection: moprh_lines_detection.html
     pyramids: pyramids.html
     threshold: threshold.html
     threshold_inRange: threshold_inRange.html
