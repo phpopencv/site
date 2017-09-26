@@ -64,6 +64,10 @@ sidebar:
 
     contrib: contaib模块
     face: 人脸识别
+#object_detection
+    object_detection: 目标检测
+    cascade_classifier: 级联分类器
+    cascade_classifier_training: 级联分类器训练
   api:
     base: 基本
     overview: 概述

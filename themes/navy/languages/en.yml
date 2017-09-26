@@ -58,6 +58,10 @@ sidebar:
 #highgui_module
     highgui_module: highgui
     trackbar: 滑动条
+#object_detection
+    object_detection: Object Detection
+    cascade_classifier: Cascade Classifier
+    cascade_classifier_training: Cascade Classifier Training
   api:
     core: Core
     overview: Overview

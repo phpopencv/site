@@ -42,6 +42,9 @@ docs:
     hough_circle: hough_circle.html
   highgui_module:
     trackbar: trackbar.html
+  object_detection:
+    cascade_classifier: cascade_classifier.html
+    cascade_classifier_training: cascade_classifier_training.html
 
 #    writing: writing.html
 #    front_matter: front-matter.html
