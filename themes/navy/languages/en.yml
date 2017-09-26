@@ -29,6 +29,35 @@ sidebar:
     how_to_scan_images: Images Scan
     mat_mask_operations: Mask operations on matrices
     mat_operations: Operations with images
+    adding_images: Adding (blending) two images using PHPOpenCV
+    basic_linear_transform: Changing the contrast and brightness of an image!
+    basic_geometric_drawing: Basic Drawing
+    random_generator_and_text: 随机生成器和OpenCV文本
+    discrete_fourier_transform: 离散傅里叶变换
+    file_input_output_with_xml_yml: 文件输入和输出使用XML和YAML文件
+    interoperability_with_OpenCV_1: Interoperability with OpenCV 1
+    how_to_use_ippa_conversion: OpenCV中的英特尔®IPP异步
+    how_to_use_OpenCV_parallel_for_: 如何使用OpenCV parallel_for_来并行化代码
+#Image Processing
+    image_processing: Image Processing
+    gausian_median_blur_bilateral_filter: Smoothing Images
+    erosion_dilatation: Eroding and Dilating
+    opening_closing_hats: More Morphology Transformations
+#    moprh_lines_detection: 利用形态学运算提取水平线和垂直线
+    flood_fill: Flood Fill
+    pyramids: 图像金字塔
+    threshold: 基本的阈值操作
+    threshold_inRange: 阈值的使用范围
+    filter_2d: 制作自己的线性滤波器！
+    copyMakeBorder: 向图像添加边框
+    sobel_derivatives: 索贝尔衍生物
+    laplace_operator: 拉普拉斯算子
+    canny_detector: Canny边缘检测器
+    hough_lines: 霍夫线变换
+    hough_circle: 霍夫圈变换
+#highgui_module
+    highgui_module: highgui
+    trackbar: 滑动条
   api:
     core: Core
     overview: Overview
