@@ -62,6 +62,9 @@ sidebar:
     object_detection: Object Detection
     cascade_classifier: Cascade Classifier
     cascade_classifier_training: Cascade Classifier Training
+#contrib_module
+    contrib: contaib
+    face: Face Recognition
   api:
     core: Core
     overview: Overview

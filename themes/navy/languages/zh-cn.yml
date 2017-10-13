@@ -61,7 +61,7 @@ sidebar:
     highgui_module: highgui
     trackbar: 滑动条
 
-
+#contrib_module
     contrib: contaib模块
     face: 人脸识别
 #object_detection
