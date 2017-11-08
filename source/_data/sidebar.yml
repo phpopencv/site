@@ -72,7 +72,13 @@ api:
   base:
     overview: index.html
   core:
+    core_constants: core_constants.html
+    core_functions: core_functions.html
     mat: mat.html
+    RotatedRect: rotated_rect.html
+  imgproc:
+    imgproc_constants: imgproc_constants.html
+    imgproc_functions: imgproc_functions.html
 
 #    events: events.html
 #    locals: locals.html

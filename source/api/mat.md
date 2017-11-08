@@ -1,6 +1,7 @@
 title: Mat类
 -----------
 
+用于储存图片信息矩阵的对象。
 
 ## 成员属性
 
@@ -12,6 +13,8 @@ public int $rows
 
 >表示矩阵的列数
 
+---
+
 ### $cols
 
 
@@ -21,6 +24,8 @@ public int $cols
 
 >表示矩阵的行数
 
+---
+
 ### $type
 
 ```
@@ -28,6 +33,8 @@ private int $type
 ```
 
 >表示矩阵的`位数`，`通道数`，`存储类型`
+
+---
 
 ## 方法 
 
@@ -48,6 +55,8 @@ public function __construct(int $rows, int $cols, int $type, Scalar $scalar)
 
 返回：Mat对象
 
+---
+
 ### zeros
 
 ```php
@@ -64,6 +73,8 @@ public static function zeros(int $rows, int $cols, int $type)
 
 返回：Mat
 
+---
+
 ### print
 
 ```php
@@ -76,6 +87,8 @@ public function print(int $type)
 
 - $type 输出字符的格式
 
+---
+
 ### type
 
 ```php
@@ -85,6 +98,8 @@ public function type()
 >返回Mat对象的type数值
 
 返回：int
+
+---
 
 ### depth
 
@@ -96,6 +111,8 @@ public function depth()
 
 返回：int
 
+---
+
 ### channels
 
 ```php
@@ -105,6 +122,8 @@ public function channels()
 >返回Mat对象的通道数
 
 返回：int
+
+---
 
 ### isContinuous
 
@@ -116,6 +135,8 @@ public function isContinuous()
 
 返回：bool
 
+---
+
 ### row
 
 ```php
@@ -125,6 +146,8 @@ public function row(int $y)
 > 获取Mat矩阵第y行数据，并保存在新的Mat对象返回
 
 返回：Mat
+
+---
 
 ### col
 
@@ -136,6 +159,8 @@ public function col(int $x)
 
 返回：Mat
 
+---
+
 ### clone
 
 ```php
@@ -145,6 +170,8 @@ public function clone()
 > 克隆当前调用clone方法的Mat对象，并且返回新的Mat对象
 
 返回：Mat
+
+---
 
 
 ### getImageROI
@@ -157,6 +184,8 @@ public function getImageROI(Rect $rect)
 
 返回：Mat
 
+---
+
 ### copyTo
 
 ```php
@@ -165,3 +194,4 @@ public function copyTo(Mat $mat, Mat $mask = NULL)
 
 > 将当前调用copyTo对象的矩阵复制到$mat矩阵中，如果传入$mask则作为掩模，掩模必须为灰度图
 
+---

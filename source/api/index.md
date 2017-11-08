@@ -23,7 +23,7 @@ use function CV\{imread, imwrite};
 虽然所有的类、方法和常量都在CV命名空间下，但是如果以功能划分，可以以下模块：
 
 - `calib3d` —— 其实就是就是Calibration（校准）加3D这两个词的组合缩写。这个模块主要是相机校准和三维重建相关的内容。基本的多视角几何算法，单个立体摄像头标定，物体姿态估计，立体相似性算法，3D信息的重建等等
-- `contrib` —— 也就是Contributed/Experimental Stuf的缩写， 该模块包含了一些最近添加的不太稳定的可选功能，不用去多管。2.4.8里的这个模块有新型人脸识别，立体匹配，人工视网膜模型等技术
+- `contrib` —— 也就是Contributed/Experimental Stuf的缩写。2.4.8里的这个模块有新型人脸识别，立体匹配，人工视网膜模型等技术
 - `core`    —— 核心功能模块
 - `imgproc` —— Image和Processing这两个单词的缩写组合。图像处理模块
 - `features2d` —— 也就是Features2D， 2D功能框架 

@@ -67,6 +67,8 @@ sidebar:
     face: Face Recognition
   api:
     core: Core
+    core_constants: Constants
+    core_functions: Functions
     overview: Overview
     events: Events
     locals: Locals
@@ -86,3 +88,7 @@ sidebar:
     processor: Processor
     renderer: Renderer
     tag: Tag
+    imgproc: Imgproc
+    imgproc_constants: Constants
+    imgproc_functions: Functions
+    RotatedRect: RotatedRect
