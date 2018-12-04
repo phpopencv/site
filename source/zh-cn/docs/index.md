@@ -6,7 +6,7 @@ title: 文档
 ## 什么是 PHPOpenCV？
 
 PHPOpenCV是一个基于OpenCV C\C++版接口开发的PHP扩展，可以理解为PHP版的OpenCV，是用于计算机视觉开发的PHP扩展。
-支持PHP7+和OpenCV3.3.0+
+支持PHP7+和OpenCV4.0.0+。
 
 在学PHPOpenCV前，有必要了解一下OpenCV
 
