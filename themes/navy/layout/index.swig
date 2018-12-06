@@ -2,7 +2,8 @@
   <div class="inner">
     <h2 id="banner-title">{{ page.subtitle }}</h2>
     <div id="banner-start">
-      <span id="banner-start-command">git clone https://github.com/hihozhou/php-opencv.git</span><a id="banner-start-link" href="docs/"><i class="fa fa-arrow-right"></i></a>
+      <span id="banner-start-command">git clone https://github.com/hihozhou/php-opencv.git</span>
+      <a id="banner-start-link" href="https://doc.phpopencv.org"><i class="fa fa-arrow-right"></i></a>
     </div>
     <div id="banner-share">{{ partial('partial/share') }}</div>
   </div>
@@ -19,7 +20,7 @@
         <li class="intro-cmd-item">make && make install</li>
       </ul>
       <div id="intro-get-started-wrap">
-        <a href="docs/" id="intro-get-started-link">{{ __('index.get_started') }}</a>
+        <a href="https://doc.phpopencv.org" id="intro-get-started-link">{{ __('index.get_started') }}</a>
       </div>
     </div>
   </div>

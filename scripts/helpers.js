@@ -76,7 +76,7 @@ hexo.extend.helper.register('header_menu', function(className){
   //console.log(lang);
   var isEnglish = lang === 'en';
   _.each(menu, function(path, title){
-    if (!isEnglish && ~localizedPath.indexOf(title)) path = lang + path;
+    // if (!isEnglish && ~localizedPath.indexOf(title)) path = lang + path;
 
     result += '<a href="' + self.url_for(path) + '" class="' + className + '-link">' + self.__('menu.' + title) + '</a>';
   });
