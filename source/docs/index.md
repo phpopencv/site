@@ -4,7 +4,7 @@ title: Overview
 Welcome to PHPOpenCV, this document will help you get started quickly. 
 If you have problems during use, please ask on [GitHub](https://github.com/hihozhou/php-opencv/issues)。
 
-## 什么是 PHPOpenCV？
+## What is PHPOpenCV？
 
 PHPOpenCV is a PHP extension based on the OpenCV C\C++ interface. It can be understood as the PHP version of OpenCV, a PHP extension for computer vision development.
 Support for PHP7+ and OpenCV4.0.0+.
